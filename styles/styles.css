@@ -1,0 +1,38 @@
+
+div{
+    position: relative;
+}
+
+.logo-container{
+    float:left;
+}
+.form-container {
+    float: left;
+    max-width: 550px;
+  }
+  .form-group {
+    margin: 20px auto;
+  }
+  .show-password {
+    position: absolute;
+    right: 0;
+    top: -8px;
+    color: #4caf50;
+    height: 30px;
+  }
+
+    .button-container {
+        float: left;
+        width: 30%;
+}
+.check-container {
+    /* float: left; */
+    display: inline-block;
+    width: 70%;
+  }
+  input.input-checkbox {
+    display: inline;
+    height: 30px;
+    width: 30px;
+    margin-top: 0;
+  }
