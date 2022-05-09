@@ -4,9 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css" />
     <title>Document</title>
 </head>
+
 <body>
-    <h1>formulario</h1>
+    <header>
+      <img width="100" src="./images/issu.jpg" alt="logo mailchimp" /><label class="label-header" >
+        Already a user<br><a href="http://www.mailchimp.com">Sign  in</a>
+
+      </label>
+      
+      <hr>
+    </header>
+    <div class="form-container">
+      <form method="get" action="formulario.html">
+        <h1>Create an issuu Acount.</h1>
+        <div class="form-group">
+          <button type="submit" class="button-google"><img width="30px" src="./images/google.jpg" >Sign in with google</button> 
+          <button type="submit" class="button-facebook"><img width="30px" src="./images/facebook.jpg" >Sign in with facebook</button>
+
+
+        </div>
+       <span>or with email</span>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="e.g.john.doe@email.com" />
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <label for="show-password" title="Show Password" class="show-password">
+            </label>
+          <input type="password" id="password" name="password" placeholder="Contraseña" />
+        </div>
+        <div class="check-container">
+            <input type="checkbox" name="checkbox" class="input-checkbox" />
+            <label for="checkbox">
+              I accept the <a href="http://www.term.com">Terms of service</a> and the <a href="http://www.prof.com">Profesional terms of service</a>
+            </label>
+        </div>
+       <div class="form-group">
+        <button type="submit"class="button-acount">CREATE ACOUNT</button>
+       </div> 
+    </div>
+
+    <footer class="footer-container">
+<p><hr>fgdfdfg</p>
+    </footer>   
 </body>
+
 </html>
