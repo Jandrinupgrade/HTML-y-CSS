@@ -76,21 +76,25 @@ div{
   }
   .label-header{
     position: absolute;
-    right: 0;
+    right: 2cm;
     top: 4px;
     color: black;
     height: 30px;  
   }
   .button-facebook{
+color: beige;
     text-align: center;
     background-color:darkblue;
+    line-height: 57px;
   }
   .button-google{
     background-color:blue;
+    line-height: 57px;
+
     
   }
   .button-acount{
-
+    position: absolute;
     padding: 30px;
     font-weight: 100;
     border-radius: 35% ;
@@ -98,17 +102,22 @@ div{
      }
 
      .footer-container{
-    margin-top: 22cm;
+     position: absolute;
+     bottom: 10px;
+     width: 100%;
+     height: 40px;
     text-align: center;
      }
 a[href="http://www.mailchimp.com"]{
 text-decoration: none;
   
 }
-a[href="prof"]{
+a[href="http://www.prof.com"]{
   text-decoration: none;
 }
   
-  a[href="http://term.com"]{
+  a[href="http://www.term.com"]{
     text-decoration: none;
   }
+  
+  
